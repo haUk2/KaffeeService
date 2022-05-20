@@ -63,7 +63,7 @@ namespace WebApplication1.Controllers
             return Kaffeemaschine1;
         }
 
-        [HttpGet, Route("macheKaffee")]
+        [HttpPut, Route("macheKaffee")]
 
         public bool macheKaffee(double menge, double verhaeltnisWasserBohnen)
         {
